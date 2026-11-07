@@ -1,0 +1,16 @@
+row_number,event_id,expected_status,expected_reason
+1,E900001,accept,Valid purchase
+2,E900002,accept,Valid partial refund of E900001
+3,E900004,accept,Valid purchase
+4,E900005,accept,Valid cancellation with zero amount
+5,E900001,duplicate,Duplicate event ID
+6,E900007,reject,Missing customer ID
+7,E900008,reject,Invalid event type
+8,E900009,reject,Negative purchase amount
+9,E900010,reject,Invalid event timestamp
+10,E900011,flag_late,Arrival delay exceeds 10 minutes
+11,E900012,accept,Valid purchase
+12,E900013,flag_out_of_order,Event time is earlier than the preceding event
+13,E900014,reject,Refund references nonexistent purchase E999999
+14,E900015,reject,Refund exceeds the remaining refundable amount
+15,E900016,reject,Cancellation amount must be zero

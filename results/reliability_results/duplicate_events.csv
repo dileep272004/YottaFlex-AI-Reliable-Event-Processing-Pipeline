@@ -1,0 +1,1 @@
+event_id,order_id,reference_event_id,customer_id,product_id,event_type,payment_method,quantity,amount_inr,event_time,ingestion_time,rejection_reason

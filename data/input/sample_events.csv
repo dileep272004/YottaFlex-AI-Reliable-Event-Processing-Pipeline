@@ -1,0 +1,6 @@
+event_id,order_id,reference_event_id,customer_id,product_id,event_type,payment_method,quantity,amount_inr,event_time,ingestion_time
+E000001,O000001,,C095,P018,purchase,credit_card,2,2486,2026-11-06T10:01:00,2026-11-06T10:31:00
+E000002,O000002,,C095,P035,purchase,upi,5,17780,2026-11-06T10:02:00,2026-11-06T10:32:00
+E000003,O000003,,C028,P015,purchase,wallet,5,1585,2026-11-06T10:03:00,2026-11-06T10:03:00
+E000004,O000004,,C084,P045,purchase,wallet,4,7620,2026-11-06T10:04:00,2026-11-06T10:14:00
+E000005,O000005,,C001,P049,purchase,credit_card,4,11548,2026-11-06T10:05:00,2026-11-06T10:10:00

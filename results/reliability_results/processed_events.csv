@@ -1,0 +1,6 @@
+event_id,order_id,reference_event_id,customer_id,product_id,event_type,payment_method,quantity,amount_inr,event_time,ingestion_time,arrival_delay_minutes,is_late,arrival_status,is_out_of_order
+E000001,O000001,,C095,P018,purchase,credit_card,2,2486,2026-11-06 10:01:00,2026-11-06 10:31:00,30.0,True,late,False
+E000002,O000002,,C095,P035,purchase,upi,5,17780,2026-11-06 10:02:00,2026-11-06 10:32:00,30.0,True,late,False
+E000003,O000003,,C028,P015,purchase,wallet,5,1585,2026-11-06 10:03:00,2026-11-06 10:03:00,0.0,False,on_time,False
+E000004,O000004,,C084,P045,purchase,wallet,4,7620,2026-11-06 10:04:00,2026-11-06 10:14:00,10.0,False,on_time,False
+E000005,O000005,,C001,P049,purchase,credit_card,4,11548,2026-11-06 10:05:00,2026-11-06 10:10:00,5.0,False,on_time,False

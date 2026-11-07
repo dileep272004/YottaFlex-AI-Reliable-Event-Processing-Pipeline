@@ -1,0 +1,29 @@
+RELIABILITY AND CHECKPOINT RECOVERY TEST
+========================================
+
+Input dataset: reliability_test.csv
+Total input events: 5
+Committed batches in final output: 3
+
+FINAL PROCESSING RESULTS
+------------------------
+Processed events: 5
+Rejected events: 0
+Duplicate events: 0
+Late events: 2
+On-time events: 3
+
+CHECKPOINT RECOVERY VERIFICATION
+--------------------------------
+A separate crash-and-resume test was performed.
+Processing was interrupted after batch 1 and then resumed.
+The resumed run completed with 5 unique event IDs.
+No duplicate records were introduced during recovery.
+
+EVIDENCE FILES
+--------------
+processed_events.csv - Successfully processed records
+rejected_events.csv - Rejected records
+duplicate_events.csv - Duplicate detection output
+
+Internal checkpoint JSON and intermediate batch state are retained locally.

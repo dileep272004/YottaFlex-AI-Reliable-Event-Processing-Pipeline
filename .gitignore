@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Testing cache
+.pytest_cache/
+
+# Local database files
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+
+# Editor settings
+.vscode/
+
+# Generated pipeline outputs
+data/output/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local backup script
+run_pipeline_backup.py

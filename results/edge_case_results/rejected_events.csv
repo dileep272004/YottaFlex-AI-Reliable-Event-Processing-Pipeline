@@ -1,0 +1,8 @@
+event_id,order_id,reference_event_id,customer_id,product_id,event_type,payment_method,quantity,amount_inr,event_time,ingestion_time
+E900007,O900007,, ,P007,purchase,upi,1,800,2026-11-06T10:10:00,2026-11-06T10:11:00,Missing required field: customer_id
+E900008,O900008,,C008,P008,invalid_event,upi,1,900,2026-11-06T10:12:00,2026-11-06T10:13:00,Invalid event type
+E900009,O900009,,C009,P009,purchase,upi,1,-500,2026-11-06T10:14:00,2026-11-06T10:15:00,Purchase amount must be positive
+E900010,O900010,,C010,P010,purchase,upi,1,600,INVALID_DATE,2026-11-06T10:17:00,Invalid event timestamp
+E900016,O900004,E900004,C004,P004,cancellation,credit_card,2,100,2026-11-06T10:27:00,2026-11-06T10:28:00,Cancellation amount must be zero
+E900014,O900014,E999999,C014,P014,refund,upi,1,100,2026-11-06T10:23:00,2026-11-06T10:24:00,Refund/cancellation references a nonexistent purchase
+E900015,O900001,E900001,C001,P001,refund,upi,1,600,2026-11-06T10:25:00,2026-11-06T10:26:00,Refund exceeds the remaining refundable amount

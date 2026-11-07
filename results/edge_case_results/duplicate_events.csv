@@ -1,0 +1,2 @@
+event_id,order_id,reference_event_id,customer_id,product_id,event_type,payment_method,quantity,amount_inr,event_time,ingestion_time,rejection_reason
+E900001,O900006,,C006,P006,purchase,upi,1,700,2026-11-06T10:08:00,2026-11-06T10:09:00,Duplicate event ID within current batch

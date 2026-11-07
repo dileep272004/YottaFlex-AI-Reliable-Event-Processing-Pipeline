@@ -1,0 +1,29 @@
+LARGE DATASET PIPELINE VERIFICATION
+===================================
+
+Input dataset: large_events.csv
+Total input events: 100,000
+Batch size: 5,000
+Total batches: 20
+
+EXECUTION RESULTS
+-----------------
+Processed events: 100,000
+Rejected events: 0
+Duplicate events: 0
+Known event IDs: 100,000
+Remembered purchases: 79,821
+Tracked refund references: 12,745
+Execution time: 31.88 seconds
+
+REVENUE RECONCILIATION
+----------------------
+Purchase count: 79,821
+Gross purchase revenue: INR 610,463,076
+Refund count: 15,013
+Total refunds: INR 56,211,153
+Cancellation count: 5,166
+Net revenue: INR 554,251,923
+
+Evidence: processed_events_sample.csv contains the first 1,000 processed records.
+Original full output and checkpoint are retained locally under data\output\final_verification.
